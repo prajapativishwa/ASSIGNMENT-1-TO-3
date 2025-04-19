@@ -1,0 +1,28 @@
+body{
+    border: 0px solid;
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+.content{
+    margin-top: auto;
+    border-style: solid;
+    border-color: black;
+    background-color: burlywood;
+    color: black;
+}
+.content h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content p{
+    font-family:cursive;
+    font: bold;
+}

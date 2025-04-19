@@ -1,0 +1,83 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100vh;
+    width: 100%;
+    height: 100%;
+    padding: 10%;
+    box-sizing: border-box;
+}
+.gridcontent{
+    width: 100%;
+    height: 75px;
+    margin: 13%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 5px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+}
+#item1{
+    background-color: lightskyblue;
+}
+#item2{
+    background-color: orangered;
+}
+#item3{
+    background-color: blue;
+}
+#item4{
+    background-color: yellow;
+}
+#item5{
+    background-color: purple;
+}
+#item6{
+    background-color: palegreen;
+}
+#item7{
+    background-color:orange;
+}
+#item8{
+    background-color: teal;
+}
+#item9{
+    background-color: maroon;
+}
+@media(max-width:658px){
+    #item1{
+        background-color: aqua;
+
+    }
+    #item2{
+        background-color: rgb(136, 141, 139);
+    }
+    #item3{
+        background-color: rgb(8, 114, 79);
+    }
+    #item4{
+        background-color: rgb(217, 104, 212);
+    }
+    #item5{
+        background-color: rgb(93, 11, 155);
+    }
+    #item6{
+        background-color: rgb(226, 48, 125);
+    }
+    #item7{
+        background-color: rgb(136, 9, 9);
+    }
+    #item8{
+        background-color:plum;
+    }
+    #item2{
+        background-color:bisque;
+    }
+}

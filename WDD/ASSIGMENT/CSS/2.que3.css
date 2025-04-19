@@ -1,0 +1,33 @@
+body{
+    background-color: antiquewhite;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 90%;
+}
+.box h1{
+    text-align: center;
+}
+.box{
+    width: fit-content;
+    height: fit-content;
+    background-color: slategrey;
+    font-style: unset;
+    font-weight: 100;
+    padding: 90px;
+}
+.name input,.pr input{
+    width: 70%;
+    padding: 5px;
+    border: 2px solid;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
